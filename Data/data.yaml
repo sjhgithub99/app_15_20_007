@@ -1,0 +1,71 @@
+#name: "lili" # 冒号必须是英文格式，每个冒号后必须跟空格
+#
+#Name: "qqq"
+
+#data1:
+#  name: "lili"
+#  pwd: "1234"
+#
+#data2:
+#  - "lili"
+#  - "nana"
+#
+#data3: ["123","456"]
+#
+#data4:
+#  - name: "lili"
+#  - pwd: "123"
+
+
+#name: lili
+#
+#bool1: true
+#bool2: false
+#
+#bool3: True
+#bool4: False
+#
+#int1: 122
+#float1: 12.0001
+
+#data: ~
+#data6: null
+#data7: Null
+
+
+#date1: 2020-11-11 12:12:12
+#date2: 2020-11-11
+#date3: 11:01:02
+
+info: &data
+  name: "lili"
+  phone: "12311112222"
+
+addr:
+  <<: *data
+  detail: "qqwe"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
